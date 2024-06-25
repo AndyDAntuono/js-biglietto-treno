@@ -23,3 +23,6 @@ else if(age > 65) {
 
 //calcolo il prezzo finale
 const discountPrice = fullPrice - (fullPrice * discount / 100)
+
+//innesto il prezzo nel file html
+document.getElementById("price").innerHTML = discountPrice.toFixed(2)+"&euro;"

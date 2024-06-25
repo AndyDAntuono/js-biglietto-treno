@@ -25,4 +25,4 @@ Calcolare il prezzo di un biglietto del treno in base all'età e alla distanza c
 - SE l'utente è un over 65, egli avrà il biglietto scontato del 40%
 - ALTRIMENTI l'utente dovrà pagare il prezzo pieno
 - calcolo il prezzo finale
-- innesto il pezzo nel file html
+- innesto il prezzo nel file html
