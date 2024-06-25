@@ -6,3 +6,17 @@ const ticketPrice = km * 0.21
 
 //chiedo all'utente la sua età
 const age = prompt("Quanti anni hai?")
+
+//SE l'utente è un minorenne, egli avrà il biglietto scontato del 20%
+//SE l'utente è un over 65, egli avrà il biglietto scontato del 40%
+//ALTRIMENTI l'utente dovrà pagare il prezzo pieno
+
+let discount = 0;
+
+if(age < 18 ) {
+    discount = 20;
+}
+
+else if(age > 65) {
+    discount = 40;
+}
